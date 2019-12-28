@@ -5,346 +5,362 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <title>Index</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Alfurquan</title>
   </head>
-
   <body>
-    <header class="nav-down">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarsExampleDefault"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end navbar-toggleable-xs"
-          id="navbarsExampleDefault"
-        >
-          <ul class="nav navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <div class="intro-section">
-      <div class="container intro-header">
-        <h4>Hi, My name is</h4>
-        <h1 class="name-text">
-          Alfurquan Zahedi
-          <br />
-          I'm a tech geek
-        </h1>
-        <h4 class="text-muted intro-subtext">
-          I'm a software engineer based in Bangalore,India specializing in
-          building high quality websites and applications
-        </h4>
-        <button class="btn btn-lg btn-outline-info">Get in touch</button>
-      </div>
-    </div>
-    <div id="about" class="about-section">
-      <div class="container">
-        <h1>About me</h1>
-        <hr />
-        <div class="row hideme">
-          <div class="col-md-4">
-            <img
-              src="/assets/images/me.jpg"
-              class="rounded-circle"
-              alt=""
-              width="330px"
-              height="400px"
-            />
-          </div>
-          <div class="col">
-            <p>
-              Hello! I'm Alfurquan,a software engineer based in
-              Bangalore,India.I am specializing in building high quality
-              websites and applications.I have expertise on web development and
-              also android app development
-              <br />
-              <br />
-              I have done Bsc(comp sc hons) from St.Xavier's college,Kolkata and
-              completed my MCA(Masters of computer application) from NIT Raipur
-              <br />
-              <br />
-              Currently I am working as a software engineer at Analytics
-              Quotient Bangalore,India where I am working as a full stack
-              developer on variety of projects.
-              <br />
-              <br />
-              Here are a few technologies that I have been working on recently
-            </p>
+    <!-- Header Portion -->
+    <header>
+      <div class="header">
+          <div class="container">
             <div class="row">
-              <div class="col-md-4">
-                <ul>
-                  <li>Javascript(ES6+)</li>
-                  <li>Node</li>
-                  <li>React</li>
-                  <li>Angular(Angular4+)</li>
-                  <li>Android development</li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul>
-                  <li>HTML & CSS</li>
-                  <li>Java</li>
-                  <li>ASP.NET MVC</li>
-                  <li>Sql Server</li>
-                  <li>Mongo DB</li>
-                </ul>
+              <div class="col-lg-12">
+                <div class="intro-content">
+                  <h1>Hello,I'm Alfurquan Zahedi
+                  </h1>
+                  <h1>
+                    I'm a software engineer
+                  </h1>
+                  <button class="work-btn">View my work</button>
+                </div>       
               </div>
             </div>
-          </div>
-        </div>
+          </div>           
       </div>
-    </div>
-    <div id="experience" class="experience-section row hideme">
-      <div class="container">
-        <h1>Where I've worked</h1>
-        <hr />
-        <div class="tab">
-          <button
-            class="tablinks"
-            onclick="openContent(event, 'first-exp')"
-            id="defaultOpen"
-          >
-            Analytics Quotient
-          </button>
-          <button class="tablinks" onclick="openContent(event, 'second-exp')">
-            Apsolutio technologies
-          </button>
-          <button class="tablinks" onclick="openContent(event, 'third-exp')">
-            Technocracy
-          </button>
-        </div>
-        <div id="first-exp" class="tabcontent">
-          <h3>Analytics Quotient</h3>
-          <h5 class="text-muted time-span-exp">June 2019 - Present</h5>
-          <ul class="exp-content">
-            <li class="exp-items">
-              Write modern, performant, maintainable code for a diverse array of
-              client and internal projects
-            </li>
-            <li class="exp-items">
-              Work with a variety of different languages, platforms, frameworks
-              such as JavaScript,Jquery,Angularjs,ASP.NET MVC,Sql Server
-            </li>
-            <li class="exp-items">
-              Work as a full stack developer on the projects
-            </li>
-          </ul>
-        </div>
-
-        <div id="second-exp" class="tabcontent">
-          <h3>Apsolutio technologies</h3>
-          <h5 class="text-muted">Jan 2019 - June 2019</h5>
-          <ul class="exp-content">
-            <li class="exp-items">
-              Worked as an android developer intern in developing a fintech
-              product for the organization following android MVC architecture
-              pattern and frameworks like Retrofit 2.
-            </li>
-            <li class="exp-items">
-              Worked on developing the backend of the application using Node
-              Cloud functions,Mongo DB and Firebase.
-            </li>
-            <li class="exp-items">
-              Worked extensively on android notification features,security
-              features like biometric propmt in android and in developing a
-              custom calendar to be used in the application
-            </li>
-          </ul>
-        </div>
-
-        <div id="third-exp" class="tabcontent">
-          <h3>Technocracy</h3>
-          <h5 class="text-muted">June 2017 - December 2018</h5>
-          <ul class="exp-content">
-            <li class="exp-items">
-              Collaborated with a team of students of NIT Raipur as part of the
-              technical committee in organising the techfest - Aavartan
-            </li>
-            <li class="exp-items">
-              Worked as an android developer in developing the android app for
-              the techfest. Followed Android MVP architecture in developing the
-              app using frameworks like retrofit.
-            </li>
-            <li class="exp-items">
-              Successfully lead the committee in the final year of college.
-            </li>
-          </ul>
-        </div>
+      <div class="topnav" id="topnav">
+          <span class="navbar-toggle" id="js-navbar-toggle">
+              <i class="fa fa-bars"></i>
+          </span>
+        <ul class="menu">
+          <li><a class="nav-links active" href="#home" class="active">Home</a></li>
+          <li><a class="nav-links" href="#about">About</a></li>
+          <li><a class="nav-links" href="#experience">Experience</a></li>
+          <li><a class="nav-links" href="#work">Work</a></li>
+          <li><a class="nav-links" href="#contact">Contact</a></li> 
+        </ul>
       </div>
-    </div>
-    <div id="work" class="work-section">
-      <div class="container">
-        <h1 class="work-heading-text">Some things I've built</h1>
-        <hr />
+    </header>
+    <section id="about">
+      <div class="about-section container">
+        <p class="text-center waypoint header-title grey slide-in-left" data-animation="slide-in-left">ABOUT</p>
+        <div class="header-bar waypoint slide-in-left grey-bar" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
         <div class="row">
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
-              <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Snapshots</h4>
-                <p class="card-text">
-                  A website where users can upload photo albums,view and like
-                  other friends albums
-                </p>
+          <div class="col-lg-5 col-sm-12 profile-container waypoint" data-animation="fade-in">
+              <div class="hexagon hexagon1">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2">
+                  </div>
+                </div>
               </div>
-              <div class="card-footer">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">Angular</li>
-                  <li class="tech-items">Node</li>
-                  <li class="tech-items">MongoDB</li>
-                </ul>
-              </div>
-            </div>
+              <p class="label bold text-center text-muted">Who's this guy?</p>
+              <p class="about-content light about-info">I'm a software engineer for Analytics Quotient 
+                  Bangalore,India.
+                  <br>
+                  A gold medalist from NIT Raipur and a graduate from St.Xavier's college 
+                  having expertise on web development and
+                  android app development</p>
           </div>
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
-              <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Pizzaholic</h4>
-                <p class="card-text">
-                  An online pizza ordering system with features for
-                  adding,deleting and modifying pizzas for admins and ordering
-                  features for customers.
-                </p>
+          <div class="col-lg-7 col-sm-12">
+              <div class="flex flex-50-gt-sm waypoint bars-wrap fade-in" data-animation="fade-in">
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:75%">
+                      <div class="tag bold flex">CSS</div>
+                    </div>
+                    <span class="regular">80%</span>
+                  </div>    
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:85%">
+                      <div class="tag bold flex">HTML</div>
+                    </div>
+                    <span class="regular">90%</span>
+                  </div>
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:65%">
+                      <div class="tag bold flex">React</div>
+                    </div>
+                    <span class="regular">70%</span>
+                  </div>
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:80%">
+                      <div class="tag bold flex">JavaScript</div>
+                    </div>
+                    <span class="regular">80%</span>
+                  </div>  
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:65%">
+                      <div class="tag bold flex">Angular</div>
+                    </div>
+                    <span class="regular">70%</span>
+                  </div>
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:55%">
+                      <div class="tag bold flex">Node.js</div>
+                    </div>
+                    <span class="regular">50%</span>
+                  </div>
+                  <div class="bar flex">
+                      <div class="bar fill" style="width:85%">
+                        <div class="tag bold flex">Android</div>
+                      </div>
+                      <span class="regular">90%</span>
+                  </div>
+                  <div class="bar flex">
+                      <div class="bar fill" style="width:80%">
+                        <div class="tag bold flex">JAVA</div>
+                      </div>
+                      <span class="regular">80%</span>
+                  </div>
+                  <div class="bar flex">
+                    <div class="bar fill" style="width:80%">
+                      <div class="tag bold flex">SQL</div>
+                    </div>
+                    <span class="regular">80%</span>
+                </div>
+                <div class="bar flex">
+                  <div class="bar fill" style="width:55%">
+                    <div class="tag bold flex">MongoDB</div>
+                  </div>
+                  <span class="regular">50%</span>
               </div>
-              <div class="card-footer foot">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">Angular</li>
-                  <li class="tech-items">Firebase</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
-              <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Bingo</h4>
-                <p class="card-text">
-                  A bike renting application where users can look for bikes
-                  nearby to rent and sellers can give their bikes for rent.
-                </p>
-              </div>
-              <div class="card-footer">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">Angular</li>
-                  <li class="tech-items">.NET Web API</li>
-                  <li class="tech-items">SQL</li>
-                </ul>
-              </div>
+              <div class="bar flex">
+                <div class="bar fill" style="width:80%">
+                  <div class="tag bold flex">.NET</div>
+                </div>
+                <span class="regular">80%</span>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container exp-section">
+        <p class="text-center waypoint header-title grey slide-in-left" data-animation="slide-in-left">EXPERIENCE</p>
+        <div class="header-bar waypoint slide-in-left grey-bar" data-animation="slide-in-left" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="content waypoint" data-animation="slide-up">
+                <p class="content-header medium">Analytics Quotient</p>
+                <div class="exp-details">
+                  <span>
+                      <i class="fa fa-certificate" aria-hidden="true"></i>
+                      Software Engineer
+                    </span>
+                  <br>
+                 <span>
+                    <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                    Jun 2019 - Present
+                 </span>
+                </div>
+                <p class="text-grey">Working as a full stack developer on a variety of different languages, platforms, frameworks
+                    such as JavaScript,Jquery,Angularjs,.NET MVC,Sql Server</p>
+              </div>
+            </li>
+            <li>
+                <div class="content waypoint" data-animation="slide-up">
+                    <p class="content-header medium">Apsolutio Technologies</p>
+                  <div class="exp-details">
+                    <span>
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                        Android Developer Intern
+                    </span>
+                    <br>
+                   <span>
+                      <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                      Jan 2019 - Jun 2019
+                   </span>
+                  </div>
+                  <p class="text-grey"> Worked as an android developer intern in developing a fintech
+                      product for the organization following android MVC architecture
+                      pattern and frameworks like Retrofit 2.
+                      <br>
+                      Worked on developing the backend of the application using Node
+                      Cloud functions,Mongo DB and Firebase.</p>
+              </div>
+              </li> 
+              <li>
+                <div class="content waypoint" data-animation="slide-up">
+                    <p class="content-header medium">Technocracy</p>
+                  <div class="exp-details">
+                    <span>
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                        Head Coordinator
+                    </span>
+                    <br>
+                   <span>
+                      <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                      Jun 2017 - Dec 2018                   
+                    </span>
+                  </div>  
+                  <p class="text-grey">
+                      Collaborated with a team of students of NIT Raipur as part of the
+                      technical committee in organising the techfest - Aavartan
+                      <br>
+                      Worked as an android developer in developing the android app for
+                      the techfest. Followed Android MVP architecture in developing the
+                      app using frameworks like retrofit.
+                  </p>              
+              </div>
+            </li>
+            <div style="clear: both;"></div>
+          </ul>
+        </div>   
+      </div>
+    </section>
+    <section id="work">
+      <div class="work-section">
+        <p class="text-center waypoint header-title grey slide-in-left" data-animation="slide-in-left">Some things I've Built</p>
+        <div class="header-bar waypoint slide-in-right grey-bar" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;"></div>
         <div class="row">
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
+          <div class="col-lg-6 col-sm-6">
+            <div class="card waypoint" data-animation="slide-up">
+              <img src="./assets/images/works/snapshot2.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Vidly</h4>
-                <p class="card-text">
-                  An application made to be used in video renting stores to
-                  manage rentals and customers who can rent movies.
+                <h5 class="card-title regular">Snapshots
+                    <i class="fa fa-github float-right"></i>
+                </h5>
+                <p class="card-text light">
+                  A website where users can upload photo albums,view and like other friends albums
                 </p>
               </div>
               <div class="card-footer">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">React</li>
-                  <li class="tech-items">Node</li>
-                  <li class="tech-items">MongoDB</li>
-                </ul>
-              </div>
-            </div>
+                  <ul class="text-muted tech-text">
+                    <li class="tech-items">Angular</li>
+                    <li class="tech-items">Node</li>
+                    <li class="tech-items">MongoDB</li>
+                  </ul>
+                </div>
+            </div>            
           </div>
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
+          <div class="col-lg-6 col-sm-6">
+              <div class="card waypoint" data-animation="slide-up">
+                  <img src="./assets/images/works/pizzaholic1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Movify</h4>
-                <p class="card-text">
-                  A website made using the API of TMDB to replicate IMDB giving
-                  the list of movies and their details
-                </p>
+                <h5 class="card-title regular">Pizzaholic
+                    <i class="fa fa-github float-right"></i>
+                </h5>
+                <p class="card-text light">
+                    An online pizza ordering system with features for both admins and customers
+                  </p>
               </div>
-              <div class="card-footer foot">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">React</li>
-                </ul>
-              </div>
-            </div>
+              <div class="card-footer">
+                  <ul class="text-muted tech-text">
+                    <li class="tech-items">Angular</li>
+                    <li class="tech-items">Firebase</li>
+                  </ul>
+                </div>
+            </div>            
           </div>
-          <div class="col-md-4 hideme">
-            <div class="card" style="width: 20rem;">
+          <div class="col-lg-6 col-sm-6">
+            <div class="card waypoint" data-animation="slide-up">
+              <img src="./assets/images/works/bingo.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <i class="fa fa-folder-open"></i>
-                <i class="fa fa-github float-right"></i>
-                <h4 class="card-title">Aavartan App</h4>
-                <p class="card-text">
-                  An android app for the techfest of NIT Raipur. Users van
-                  register for events of the fest using the app and get
-                  notifications for the events through the app
+                <h5 class="card-title regular">Bingo
+                    <i class="fa fa-github float-right"></i>
+                </h5>
+                <p class="card-text light">
+                    A bike renting application where users can look for bikes nearby to rent and sellers can give their bikes for rent.
                 </p>
               </div>
               <div class="card-footer">
-                <ul class="text-muted tech-text">
-                  <li class="tech-items">Android</li>
-                  <li class="tech-items">Java</li>
-                  <li class="tech-items">SQL</li>
-                </ul>
-              </div>
-            </div>
+                  <ul class="text-muted tech-text">
+                    <li class="tech-items">Angular</li>
+                    <li class="tech-items">.NET Web API</li>
+                    <li class="tech-items">SQL</li>
+                  </ul>
+                </div>
+            </div>            
           </div>
+          <div class="col-lg-6 col-sm-6">
+            <div class="card waypoint" data-animation="slide-up">
+              <img src="./assets/images/works/movify.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title regular">Movify
+                    <i class="fa fa-github float-right"></i>
+                </h5>
+                <!-- <p>Ongoing</p> -->
+                <p class="card-text light">
+                    A website made using the API of TMDB to replicate IMDB giving the list of movies and their details
+                </p>
+              </div>
+              <div class="card-footer">
+                  <ul class="text-muted tech-text">
+                    <li class="tech-items">React</li>
+                  </ul>
+                </div>
+            </div>            
+          </div>
+          <div class="col-lg-6 col-sm-6 last">
+            <div class="card waypoint last" data-animation="slide-up">
+              <img src="./assets/images/works/aavartan1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title regular">Aavartan App
+                    <i class="fa fa-github float-right"></i>
+                </h5>
+                <p class="card-text light">An android app for the techfest of NIT Raipur. Users van register for events of the fest using the app and get notifications for the events through the app     
+                </p>
+              </div>
+              <div class="card-footer">
+                  <ul class="text-muted tech-text">
+                    <li class="tech-items">Android</li>
+                    <li class="tech-items">Java</li>
+                    <li class="tech-items">SQL</li>
+                  </ul>
+                </div>
+            </div>            
+          </div>
+      </div>
+    </div>
+    </section>
+    <section id="contact">
+        <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+        <div class="container contact-section">
+            <p class="text-center waypoint white header-title slide-in-left" data-animation="slide-in-left">CONTACT</p>
+            <div class="header-bar waypoint white slide-in-right white-bar" data-animation="slide-in-right" data-delay=".5s" style="animation-delay: 0.5s;"></div>
+            <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+                <input placeholder="Name" type="text" name="name" required>
+                <input placeholder="Enter email" type="email" name="email" required>
+                <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                <div id="success">
+                  <div>Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span></div>
+                </div>
+                <input class="button" type="submit" id="submit" value=SUBMIT>
+              </form>
         </div>
-      </div>
-    </div>
-    <div id="contact" class="contact-section text-center">
-      <h4>What's next?</h4>
-      <h1 class="get-in-touch-text">Get In Touch</h1>
-      <p class="connect-text">
-        Feel free to connect with me through any of the social platforms below
-      </p>
-      <a href="" class="hello-btn">Say Hello</a>
-      <div class="social-links">
-        <i class="fa fa-facebook-square link"></i>
-        <i class="fa fa-github link"></i>
-        <i class="fa fa-instagram link"></i>
-        <i class="fa fa-linkedin-square link"></i>
-      </div>
-    </div>
+    </section>
+    <footer>
+        <div class="icon-wrap row">
+            <a href="https://www.linkedin.com/in/alfurquan-zahedi-a74861154/" target="_blank">
+              <div class="flex icon" id="icon-2">
+                <i class="fa fa-linkedin"></i>
+              </div>
+            </a>
+            <a href="https://www.facebook.com/alfurquan.zahedi" target="_blank">
+              <div class="flex icon" id="icon-3">
+                <i class="fa fa-facebook"></i>
+              </div>
+            </a>
+            <a href="https://github.com/Alfurquan" target="_blank">
+              <div class="flex icon" id="icon-5">
+                <i class="fa fa-github"></i>
+              </div>
+            </a>
+          </div>
+    </footer>
+    <script src="/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>    
     <script src="js/index.js"></script>
   </body>
 </html>

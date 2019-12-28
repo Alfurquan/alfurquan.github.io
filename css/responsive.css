@@ -1,0 +1,208 @@
+@media all and (max-width: 600px) {
+    .header {
+        height:100vh;
+        min-height:400px;
+        background-size:cover;
+        background-image:linear-gradient(to bottom, rgba(27, 36, 47, 0.72), rgba(27, 36,47, 0.93)),
+        url(../assets/images/cover-sm.jpg);
+    }
+    body{
+        overflow-x: hidden;
+        font-size:10pt;
+    }
+    
+    .intro-content{
+        padding-top: 60%;
+        /* font-family: 'Montserrat-Regular'; */
+    }
+    .intro-content h1{
+        font-size: 20px;
+    }
+    .work-btn{
+        padding:10px;
+        width: 165px;
+        font-size: 16px;
+    }
+    .work-btn:hover{
+        background: #04C2C9;
+        border:  2px solid #04C2C9;
+        font-family: 'Montserrat-SemiBold';
+    }
+    .hexagon1 {
+        width: 270px;
+        height: 170px;
+        margin: 0px auto;
+    }
+
+    /* About section CSS */
+    .header-title{
+        font-size:24px;
+        padding-top:10%;
+    }
+    .header-bar{       
+        width: 40px;
+        height: 4px;
+    }
+    .label{
+        font-size: 14pt;
+    }
+    .timeline:before{
+        left:31px;
+    }
+    .timeline ul li{
+        width:100%
+    }
+    .timeline ul li:nth-child(odd):before, .timeline ul li:nth-child(even):before{
+        left:25px
+    }
+    .content{
+        padding-left:15px;
+        margin-left: 10px;
+    }
+    .timeline ul li:nth-child(odd){
+        float: left;
+        text-align: left;
+    }
+    .timeline ul li:nth-child(even){
+        float: left;
+    }
+    .card{
+        width: 20rem;
+    }
+    form{
+        width: 250px;
+    }
+  }
+  @media all and (max-width:400px){
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .intro-content{
+        padding-top: 80%;
+    }
+    .intro-content h1{
+        font-size: 20px;
+    }
+    .work-btn{
+        padding:10px;
+        width: 165px;
+        font-size: 16px;
+    }
+    .label{
+        font-size: 14pt;
+    }
+    .bar{
+        height: 22px;
+    }
+    .bar .tag{
+        width: 70px;
+        font-size: 7pt;
+        padding: 3pt;
+        font-weight: normal;
+    }
+    .bar span{
+        font-size: 7pt;
+        padding: 4px 4px 2px 0px;
+        /* display: none; */
+    }
+    .bars-wrap{
+        margin:20px auto 0 auto;
+    }
+    .exp-details{
+        font-size:10pt;
+        padding-left: 0px;
+    }
+    .content-header{
+        padding-left:0px;
+        font-size:16px;
+    }
+    .card{
+        width: 18rem;
+        padding-left:0px;
+    }
+    
+  }
+
+  /* For tablet screens */
+  @media screen and (min-width:768px){
+    .hexagon1 {
+        width: 420px;
+        height: 270px;
+        margin: 0px auto;
+    }
+    .bars-wrap{
+        margin:50px auto;
+    }
+    .last{
+        margin: auto;
+    }
+    .card{
+        width: 20rem;
+        height: 400px;
+    }
+    .card.last{
+        margin-top: 2%;
+    }
+    .row{
+        padding-left: 2%;
+    }
+    form{
+        width: 500px;
+    }
+
+  }
+
+  @media screen and (min-width:1024px){
+    .hexagon1 {
+        width: 400px;
+        height: 250px;
+        margin: 0 0 0 -45px;
+    }
+    .card{
+        width: 28rem;
+        height: 450px;
+    }
+    .row{
+        padding-left: 7%;
+        padding-right: 3%;
+    }
+    .last{
+        margin-top: 3%;
+    }
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 60px;
+        align-items: center;
+        padding-left: 70px;
+    }
+
+    .menu{
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .menu-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;        
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+    
+}
+
+  
+    
