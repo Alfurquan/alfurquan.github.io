@@ -235,7 +235,7 @@ body {
 .intro-content h1{
     font-size: 3em;
   }
-.work-btn{
+button.nav-links{
       padding:10px;
       width: 200px;
       background: transparent;
@@ -245,9 +245,10 @@ body {
       margin-top: 2%;
       transition: background 0.5s;
   }
-.work-btn:hover{
+  button.nav-links:hover{
       background: #04C2C9;
       border:  2px solid #04C2C9;
+      color: white !important;
       font-family: 'Montserrat-SemiBold';
   }
 
@@ -488,6 +489,12 @@ body {
     display: inline;
     padding: 10px;
 }
+.card-body a{
+    color: black;
+}
+.card-body h5 span{
+    font-size: 12px;
+}
 
 
 /* CONTACT Section CSS */
@@ -496,70 +503,36 @@ section:nth-of-type(5) svg {
     top: 0;
     left: 0; 
 }
-form {
-    margin: 40px auto 0 auto;
-}
-input[type="text"],input[type="email"],textarea {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
-    border: 0;
-    padding: 10px 15px;
-    background: #1E242C;
-    font-size: 12pt;
-    margin-bottom: 3px;
-    color: #fff; 
-}
-textarea {
-    min-height: 150px;
-    margin-bottom: 5px; 
-}
-.button {
-    float: right;
-    margin: 5px 0 0 0;
-    font-size: 12pt;
-    padding: 10px 30px;
-    color: #fff;
-    background: transparent;
-    outline: 0; 
-}
-.button:hover {
-    background: #04C2C9; 
-}
-#success {
-    height: 0;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    transition: height .25s; 
-}
-#success.expand {
-    height: 36px; 
-}
-#success div {
-    background: #04c986;
-    color: #157051;
-    font-size: 10pt;
-    font-weight: 600;
-    padding: 5px 0;
-    border: 1px solid #157c59; 
-}
-#close {
-  position: absolute;
-  padding: 5px 15px;
-  font-size: 12pt;
-  font-weight: 600;
-  right: 0;
-  cursor: pointer; 
-}
+
 #contact{
     background: #252934;
     color: #fff;
     margin-top: 75px; 
 }
-form{
-    height: 500px;
+.contact-message{
+    height: 300px;
+}
+.contact-message p{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.send-btn{
+      font-size: 12pt;
+      padding: 15px 30px 15px 30px;
+      color: #fff;
+      background: transparent;
+      border: 1px solid white;
+}
+.send-btn .fa{
+    padding-right: 5px;
+}
+.send-btn:hover{
+    background: #04C2C9;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #04C2C9;
+
 }
 
 /* FOOTER Section CSS */

@@ -72,11 +72,21 @@
     form{
         width: 250px;
     }
+    .contact-message p{
+        font-size: 16px;
+    }
   }
   @media all and (max-width:400px){
     body{
         max-width: 100%;
         overflow-x: hidden;
+    }
+    .header {
+        height:100vh;
+        min-height:400px;
+        background-size:cover;
+        background-image:linear-gradient(to bottom, rgba(27, 36, 47, 0.72), rgba(27, 36,47, 0.93)),
+        url(../assets/images/cover-sm-1.jpg);
     }
     .intro-content{
         padding-top: 80%;
@@ -130,6 +140,13 @@
         width: 420px;
         height: 270px;
         margin: 0px auto;
+    }
+    .header {
+        height:100vh;
+        min-height:400px;
+        background-size:cover;
+        background-image:linear-gradient(to bottom, rgba(27, 36, 47, 0.72), rgba(27, 36,47, 0.93)),
+        url(../assets/images/cover.jpg);
     }
     .bars-wrap{
         margin:50px auto;
